@@ -24,6 +24,7 @@ export default function Home() {
         onChange={(e) => setQuantity(parseFloat(e.target.value))}
         max={MAX_DONATION_IN_CENTS / DONATION_IN_CENTS}
       />
+      <button></button>
     </div>
   );
 }
